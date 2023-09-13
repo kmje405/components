@@ -20,7 +20,7 @@ const ExperienceSection: React.FC = () => {
 
       <h3>Certified ASL Interpreter Specializing in the SDLC</h3>
       <div className="iframe-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/7s1onbEeCzo?si=ocvLe05cyryQgUqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/7s1onbEeCzo?si=ocvLe05cyryQgUqJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
       <p className="vid">See some of my work with big names in tech like Microsoft</p>
 
