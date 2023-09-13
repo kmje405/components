@@ -1,0 +1,29 @@
+// Import the variables
+@import "../../styles/variables.scss";
+
+.navbar {
+  width: $component-width;
+  padding: $padding-size;
+  margin: auto;
+  border: $troubleshooting-border;
+  display: flex;  // Ensures the container is a flex container
+  justify-content: flex-start;  // Aligns items to the left
+
+  .container {
+    .navbar-list {
+      list-style: none;
+      display: flex;
+      align-items: flex-start;
+
+      .navbar-item {
+        a {
+          text-decoration: none;
+          color: $font-color;
+          margin-right: 1rem;
+          
+
+        }
+      }
+    }
+  }
+}

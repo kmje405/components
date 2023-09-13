@@ -1,0 +1,28 @@
+// Import the variables
+@import "../../styles/variables.scss";
+
+#projects {
+  background-color: transparent;
+  padding: $padding-size;
+  margin: auto; // Center both horizontally and vertically
+  width: $component-width;
+
+  h2 {
+    font-size: $font-size-large;
+    margin-bottom: $margin-bottom-size;
+    color: $font-color;
+    text-align: center;
+
+  }
+
+  h3 {
+    font-size: 1.5rem;  // If you have a variable for this size, use it here.
+    margin-bottom: 0.5rem;  // If you have a variable for this size, use it here.
+    color: $font-color;
+  }
+
+  p {
+    font-size: $font-size-small;
+    color: $font-color;
+  }
+}

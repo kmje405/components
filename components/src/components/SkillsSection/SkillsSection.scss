@@ -1,0 +1,46 @@
+@import '../../styles/variables.scss';
+
+#skills {
+  background-color: transparent;
+  padding: $padding-size;
+  width: $component-width;
+
+  h2 {
+    font-weight: bold;
+    font-size: $font-size-large;
+    margin-bottom: $margin-bottom-size;
+    color: $font-color;
+  }
+
+  .masonry {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    .column {
+      flex: auto;
+      
+      .pill {
+        background-color: #2A1547;
+
+        font-size: $font-size-small;
+        width: fit-content;
+        color: white;
+        border-radius: 1rem;
+        text-align: center;
+        padding: .5rem 1rem;
+        margin: .5rem .5rem;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    overflow-x: hidden; // Prevent horizontal scrolling
+
+    .masonry {
+      flex-direction: column; // Stack columns vertically
+      align-items: flex-end; // Push pills to the bottom
+    }
+  }
+}

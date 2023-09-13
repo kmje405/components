@@ -1,0 +1,61 @@
+// Import custom variables
+@import "../../styles/variables.scss";
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  padding: $padding-size;
+  width: $component-width;
+  max-width: 500px;
+  margin-bottom: $margin-bottom-size;
+
+
+
+  h2 {
+    font-size: $font-size-large;
+    margin-bottom: $margin-bottom-size;
+    color: $font-color;
+  }
+
+  .input-group {
+    margin-bottom: $margin-bottom-size;
+
+    label,
+    input,
+    textarea {
+      font-size: $font-size-small;
+      color: $font-color;
+    }
+
+    label {
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid $border-color;
+      border-radius: 4px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
+}

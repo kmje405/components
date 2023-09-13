@@ -1,0 +1,46 @@
+@import "../../styles/variables.scss";
+
+#education {
+  background-color: transparent;
+  padding: $padding-size;
+  margin: auto;
+  width: $component-width;
+  line-height: 1.5
+  ;
+
+  // General Heading Styles
+  h2, h3 {
+    margin-bottom: $margin-bottom-size;
+    color: $font-color;
+  }
+
+  h2 {
+    font-size: $font-size-large;
+  }
+
+  h3 {
+    font-size: 1.5rem;  // Consider adding a new variable for this size
+  }
+
+  // Paragraph and List Styles
+  p, ul {
+    font-size: $font-size-small;
+    color: $font-color;
+    margin-bottom: 0.5rem;  // Consider adding a new variable for this size
+  }
+
+  // Unordered List Styles
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .badges {
+    width: 30%;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0;
+    margin-bottom: $margin-bottom-size;
+  }
+}

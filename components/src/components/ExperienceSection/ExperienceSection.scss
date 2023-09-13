@@ -1,0 +1,47 @@
+// ExperienceSection.scss
+// Import the variables
+@import "../../styles/variables.scss";
+
+#experience {
+  background-color: transparent;
+  padding: $padding-size;
+  margin: auto;
+  width: $component-width;
+
+  h2 {
+    font-size: $font-size-large;
+    margin-bottom: 2rem;
+    color: $font-color;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+    border-bottom: 3px solid rgba($color: #965f79, $alpha: 1);
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: $font-color;
+    line-height: 1.5;
+    text-align: center;
+
+  }
+
+  p {
+    font-size: $font-size-small;
+    color: $font-color;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  // Newly added class to center iframe
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vid {
+    text-align: center;
+  }
+}
