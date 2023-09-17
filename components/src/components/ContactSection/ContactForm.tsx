@@ -29,7 +29,7 @@ const MyForm = () => {
           placeholder="Message"
           required
         ></textarea>
-        <ReCAPTCHA sitekey="6LdLqssjAAAAAEQBqGOIXk3Nh1CobcRfkx_rPYpu" />
+        <ReCAPTCHA sitekey="6LdBPh4oAAAAABVnUoQBZATKCZ31IWTiPbStcYjn" />
 
         <button type="submit">Send</button>
       </form>
