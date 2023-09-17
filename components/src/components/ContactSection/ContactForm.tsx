@@ -1,4 +1,5 @@
 import "./ContactForm.scss";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const MyForm = () => {
   return (
@@ -28,6 +29,8 @@ const MyForm = () => {
           placeholder="Message"
           required
         ></textarea>
+        <ReCAPTCHA sitekey="6LdLqssjAAAAAEQBqGOIXk3Nh1CobcRfkx_rPYpu" />
+
         <button type="submit">Send</button>
       </form>
     </div>
