@@ -3,7 +3,7 @@ import SkillsSection from './components/SkillsSection/SkillsSection'
 import ExperienceSection from './components/ExperienceSection/ExperienceSection'
 import EducationSection from './components/EducationSection/EducationSection'
 import ProjectsSection from './components/ProjectSection/ProjectSection'
-import MyForm from './components/ContactSection/ContactForm'
+//import MyForm from './components/ContactSection/ContactForm'
 import "./reset.scss"
 import "./styles/App.scss"
 
@@ -17,7 +17,6 @@ function App() {
       <ProjectsSection />
       <SkillsSection />
       <EducationSection />
-      <MyForm />
     </>
   )
 }
