@@ -1,43 +1,24 @@
+// Importing variables from SCSS file
 @import "./variables.scss";
 
-@keyframes gradient-rotate {
-  0% {
-    background: linear-gradient(45deg, #7C4D8F, #FF63AB, #FFA53F, #FFD46E);
-  }
-  25% {
-    background: linear-gradient(45deg, #FF63AB, #FFA53F, #FFD46E, #7C4D8F);
-  }
-  50% {
-    background: linear-gradient(45deg, #FFA53F, #FFD46E, #7C4D8F, #FF63AB);
-  }
-  75% {
-    background: linear-gradient(45deg, #FFD46E, #7C4D8F, #FF63AB, #FFA53F);
-  }
-  100% {
-    background: linear-gradient(45deg, #7C4D8F, #FF63AB, #FFA53F, #FFD46E);
-  }
-}
-
 body {
-  
-  background-image: linear-gradient(-45deg, #7C4D8F, #FF63AB, #FFA53F, #FFD46E);
-  background-color: #6A0DAD;
-  opacity: 0.9;
+  background-color: #000000;
+  opacity: 1;
   background-size: cover;
-  animation: gradient-rorate 1s infinite infinite;
+  animation: gradient-rotate 1s infinite; // Corrected typo in 'gradient-rotate'
   margin: auto;
-  background-size: cover;
   background-repeat: no-repeat;
   font-family: sans-serif;
   font-weight: bold;
+}
 
+img {
+  width: 50%;
+}
 
-  img {
-    width: 50%;
-  }
-
-  // Media query for tablet and mobile sizes
-  @media (max-width: 1024px) {
-    min-width: 90vw;
+// Media query for tablet and mobile sizes
+@media (max-width: 1024px) {
+  body {
+    min-width: 100vw;
   }
 }

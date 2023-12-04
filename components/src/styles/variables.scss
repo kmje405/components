@@ -1,19 +1,19 @@
 // Existing variables
 $primary-color: #007bff;
 $hover-color: #0056b3;
-$font-color: #ffffff;
+$font-color: rgb(255, 255, 255);
 $border-color: #ccc;
 $padding-size: 2rem;
 $margin-bottom-size: 1rem;
 $font-size-large: 1.5rem;
 $font-size-small: 1rem;
-$component-width: 50vw;
+$component-width: 80%;
 $font-size-xlarge: 2.5rem;
 $font-size-medium: 1.2rem;
 
 
 // Mobile-specific variables
-$mobile-padding-size: 1rem;
+$mobile-padding-size: auto;
 $mobile-margin-bottom-size: 0.5rem;
-$mobile-font-size-large: 4vw;
-$mobile-font-size-small: 3vw;
+$mobile-font-size-large: 1rem;
+$mobile-font-size-small: 1rem;

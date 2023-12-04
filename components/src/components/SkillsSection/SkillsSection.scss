@@ -22,7 +22,6 @@
       
       .pill {
         background-color: #2A1547;
-
         font-size: $font-size-small;
         width: fit-content;
         color: white;
@@ -35,12 +34,8 @@
     }
   }
 
-  @media (max-width: 768px) {
-    overflow-x: hidden; // Prevent horizontal scrolling
-
-    .masonry {
-      flex-direction: column; // Stack columns vertically
-      align-items: flex-end; // Push pills to the bottom
-    }
+  // Media query to hide #skills on screens narrower than 767px (mobile devices)
+  @media (max-width: 767px) {
+    display: none;
   }
 }

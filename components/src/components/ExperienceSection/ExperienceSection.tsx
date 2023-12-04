@@ -25,8 +25,8 @@ const ExperienceSection: React.FC = () => {
       <p className="vid">See some of my work with big names in tech like Microsoft</p>
 
       <p>With 12 years of ASL Interpretation experience, I've specialized in bridging the communication gap in the tech industry. My role involves facilitating effective communication between Deaf and hearing collaborators in various software development projects.</p>
-      <h3>Certified BEI Master Interpreter at Sorenson Communications</h3>
-      <p>At Sorenson, my ASL Interpretation services have been crucial in various sectors, including healthcare, legal, and tech. My commitment to creating an inclusive environment extends to coding and project management, showcasing my multi-disciplinary expertise.</p>
+      <h3>Certified BEI Master Interpreter</h3>
+      <p>My ASL Interpretation services have been crucial to successful communication in various sectors, including healthcare, legal, and tech. My commitment to creating an inclusive environment extends to coding and project management, showcasing my multi-disciplinary expertise.</p>
     </div>
   );
 };
